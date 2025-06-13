@@ -209,7 +209,7 @@ body,
 input,
 select,
 textarea {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.86);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: normal;
@@ -2043,7 +2043,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  border-color: rgba(255, 255, 255, 0.55) !important;
+  border-color: rgba(255, 255, 255, 0.86) !important;
 }
 
 input[type="submit"]:hover:after,
@@ -2489,7 +2489,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.86);
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -3134,6 +3134,7 @@ body.is-ie .spotlights > section {
   justify-content: center;
   width: 50em;
   -ms-flex: 1;
+  flex: 1;
 }
 
 .spotlights > section > .content > .inner {
@@ -3487,7 +3488,7 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 #header > nav > ul > li a:hover {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.86);
 }
 
 #header > nav > ul > li a.active {
@@ -3837,7 +3838,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:hover {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.86);
 }
 
 #sidebar nav a.active {
