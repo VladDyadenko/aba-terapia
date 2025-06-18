@@ -2043,7 +2043,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  border-color: rgba(255, 255, 255, 0.86) !important;
+  border-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 input[type="submit"]:hover:after,
@@ -2489,7 +2489,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.86);
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2958,7 +2958,7 @@ article.special {
 }
 
 header p {
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.6);
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -3479,7 +3479,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #header > nav > ul > li a {
   border: 0;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.7);
   display: inline-block;
   font-size: 0.6em;
   font-weight: bold;
@@ -3797,7 +3797,7 @@ body.is-ie #sidebar > .inner {
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease;
   border: 0;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.6);
   display: block;
   font-size: 0.6em;
   font-weight: bold;
