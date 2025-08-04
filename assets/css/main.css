@@ -113,6 +113,12 @@ body {
   line-height: 1;
 }
 
+.li_icon li::before {
+  content: "🧩";
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
 ol,
 ul {
   list-style: none;
