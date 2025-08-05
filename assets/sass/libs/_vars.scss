@@ -40,18 +40,47 @@ $font: (
 );
 
 // Palette.
+// $palette: (
+//   bg: #312450,
+//   bg-alt: darken(#312450, 5),
+//   fg: rgba(255, 255, 255, 0.55),
+//   fg-bold: #ffffff,
+//   fg-light: rgba(255, 255, 255, 0.35),
+//   border: rgba(255, 255, 255, 0.15),
+//   border-bg: rgba(255, 255, 255, 0.05),
+//   accent1: #5e42a6,
+//   accent1-alt: darken(#5e42a6, 10),
+//   accent2: #5052b5,
+//   accent2-alt: darken(#5052b5, 10),
+//   accent3: #b74e91,
+//   accent3-alt: darken(#b74e91, 10),
+// );
+
 $palette: (
-  bg: #312450,
-  bg-alt: darken(#312450, 5),
-  fg: rgba(255, 255, 255, 0.55),
-  fg-bold: #ffffff,
-  fg-light: rgba(255, 255, 255, 0.35),
-  border: rgba(255, 255, 255, 0.15),
-  border-bg: rgba(255, 255, 255, 0.05),
-  accent1: #5e42a6,
-  accent1-alt: darken(#5e42a6, 10),
-  accent2: #5052b5,
-  accent2-alt: darken(#5052b5, 10),
-  accent3: #b74e91,
-  accent3-alt: darken(#b74e91, 10),
+  bg: #fafafa,
+  // теплий світло-сірий
+  bg-alt: #ffffff,
+  // білий
+  fg: #374151,
+  // сучасний темно-сірий
+  fg-bold: #111827,
+  // майже чорний
+  fg-light: #6b7280,
+  // середній сірий
+  border: #d1d5db,
+  // світлі межі
+  border-bg: #f9fafb,
+  // ледь помітний фон
+  accent1: #3b82f6,
+  // яскравий синій
+  accent1-alt: #2563eb,
+  // темніший синій
+  accent2: #10b981,
+  // свіжий зелений
+  accent2-alt: #059669,
+  // темніший зелений
+  accent3: #f59e0b,
+  // теплий жовтий
+  accent3-alt: #d97706,
+  // помаранчево-жовтий
 );
