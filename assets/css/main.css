@@ -3594,7 +3594,14 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #fafafa;
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.7),
+      rgba(250, 250, 250, 0.6)
+    ),
+    url("/images/backgound_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3849,7 +3856,7 @@ body.is-ie #sidebar > .inner {
 
 #sidebar nav a.active {
   color: #fff;
-  background: #4299e1; /* або ваш accent1 */
+  background: #155b98;
   padding: 8px 16px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
